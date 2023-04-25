@@ -1,0 +1,152 @@
+
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My website </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?
+family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/da2d854dfb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+  </section>
+   <section class = "header">
+     <nav>
+       <a href="My Website.html"> <img src ="image/logo3.png"></a>
+       <div class="nav-links" id="navLinks">
+         <div class="label" style="display: inline;">
+            <p style="color: white;"><i class="fa-solid fa-envelope" style="color: rgb(251, 6, 6); cursor: pointer; font-size: large;"></i> sheekhabhagat@gmail.com</p> 
+            <p style="color: white;"><i class="fa-solid fa-phone-flip" style="color: rgb(254, 252, 252); cursor: pointer; font-size: large;"></i> 9567823498 </p>
+         </div>
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+         <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">NEW ARRIVALS</a></li>
+            <li><a href="">SHOP</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+       </div>
+       <i class="fa fa-bars" onclick="showMenu()"></i>
+     </nav>
+
+     <div class="text-box">
+         <h1>YOUR CHOICE</h1>
+         <p> <i> Wear your Best Moments </i> </p>
+         <a href="" class="btn">Visit us to know more</a>
+
+     </div>
+   </section>
+   <br>
+   <hr style="margin: 10px; height: 1px; background: black;">
+
+   <!--Clothing Section-->
+     <section class="dressing">
+     <h1 style="text-align: center;"><i><u>Clothing Section</u></i></h1>
+     <p style="color: rgb(75, 4, 4); text-align: center; font-size: medium;"> <b><i> <u>Wear the best version of you</u></i></b></p>
+      <br>
+     <div class="row">
+       <div class="coloumn">
+         <img src="image/women.jpg" style="width: 100%;">
+         <div class="layer" style="margin-top: 10px;">
+          <h3>WOMENS WEAR</h3>
+         </div>
+       </div>
+       <div class="coloumn">
+         <img src="image/men.jpg" style="width: 100%;">  
+         <div class="layer" style="margin-top: 10px;">
+          <h3>MENS WEAR</h3>
+      </div>   
+       </div>
+       <div class="coloumn">
+         <img src="image/children.jpeg" style="width: 100%;">
+         <div class="layer" style="margin-top: 10px;">
+          <h3>CHILDREN'S WEAR</h3>
+        </div>
+       </div>
+     </div>
+    </section>
+    <br>
+    <br>
+    <!-- -->
+    <section class="testimonals">
+      <h1>What Our Customers Says</h1>
+
+      <div class="row">
+        <div class="testimonial-col">
+          <img src="image/men1.jfif">
+          <div>
+            <p>These pants!! What can I say about them except THANK GOD they exist.
+              I bought my first pair randomly (and cheaply) at Costco. When I got
+              home I was surprised to find that they fit perfectly. And now I know I
+              can order them from Your Choice and get that same perfect fit, any time I want.
+              The length is right, the waist is not too low, they’re well made…I love these pants!!</p>
+               <h3>Will Byers</h3>
+               <i class="fa fa-star" ></i>
+               <i class="fa fa-star" ></i>
+               <i class="fa fa-star" ></i>
+               <i class="fa fa-star" ></i>
+               <i class="fa fa-star" ></i>
+          </div>
+        </div>
+        <div class="testimonial-col">
+          <img src="image/women1.jfif">
+          <div>
+            <p>Such a lovely experience. The girls made the experience
+               really enjoyable even in the current climate. They were
+               so helpful from start to finish., offering great advise
+               and going above a beyond to help me find the perfect dress.</p>
+               <h3>Emma Hills</h3>
+               <i class="fa fa-star" ></i>
+               <i class="fa fa-star" ></i>
+               <i class="fa fa-star" ></i>
+               <i class="fa fa-star" ></i>
+               <i class="fa fa-star-o" ></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br>
+    
+
+    <section class="cta">
+      <h3>"What you wear is how you present yourself to the world,<br>
+         especially today, when human contacts are so quick. Fashion is instant language."</h3>
+      <a href="" class="btn">CONTACT US</a>
+    </section>
+   
+
+    <section class="footer">
+         <h3>About Us</h3>
+         <p>We always try our best to provide you the best product that not only looks good but boost your sefl confidence.</p>
+         <div class="icons">
+          <i class="fa fa-facebook" ></i>
+          <i class="fa fa-instagram" ></i>
+          <i class="fa fa-twitter" ></i>
+          <i class="fa-solid fa-envelope"></i>
+         </div>
+         <p>Made with <i class="fa fa-heart-o" ></i></p>
+    </section>
+   <script>
+    
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+
+      function openFacebook(){
+        
+      }
+   </script>
+</body>
+</html>
